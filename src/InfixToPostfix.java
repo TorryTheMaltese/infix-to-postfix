@@ -73,7 +73,6 @@ public class InfixToPostfix {
         String second;
 
         Stack myStackForCal = new Stack();
-//        myStackForCal.top = 0;
 
         for(int i=0; i<ch.length; i++){
             if(precedence(ch[i]) > 0){
